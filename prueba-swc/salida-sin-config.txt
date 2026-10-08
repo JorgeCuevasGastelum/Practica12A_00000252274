@@ -1,0 +1,25 @@
+  x Expression expected
+   ,-[saludo.jsx:3:1]
+ 1 | function Saludo({ nombre }) {
+ 2 |   return (
+ 3 |     <div className="tarjeta">
+   :     ^
+ 4 |       <h1>Hola, {nombre}</h1>
+ 5 |       <p>Esto es JSX.</p>
+ 6 |     </div>
+   `----
+  x Expected ',', got 'ident'
+   ,-[saludo.jsx:3:1]
+ 1 | function Saludo({ nombre }) {
+ 2 |   return (
+ 3 |     <div className="tarjeta">
+   :          ^^^^^^^^^
+ 4 |       <h1>Hola, {nombre}</h1>
+ 5 |       <p>Esto es JSX.</p>
+ 6 |     </div>
+   `----
+
+
+Caused by:
+    0: failed to process js file
+    1: Syntax Error
